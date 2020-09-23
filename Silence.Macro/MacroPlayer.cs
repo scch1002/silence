@@ -107,7 +107,7 @@ namespace Silence.Macro
         /// <summary>
         /// Plays the macro on the current thread.
         /// </summary>
-        private void PlayMacro()
+        public void PlayMacro()
         {
             IsPlaying = true;
 

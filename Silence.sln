@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silence", "Silence\Silence.csproj", "{1CBBC97A-D669-48FA-81D3-E5CBD5E55C7B}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silence.Macro", "Silence.Macro\Silence.Macro.csproj", "{63B186AA-962C-4A5F-90EE-268BBB5377F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silence.Simulation", "Silence.Simulation\Silence.Simulation.csproj", "{CE200217-B899-4CA8-833A-7DCAD1B6F7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilenceConsole", "SilenceConsole\SilenceConsole.csproj", "{5C461E5F-773A-4E69-B630-62CCB62BE328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{CE200217-B899-4CA8-833A-7DCAD1B6F7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE200217-B899-4CA8-833A-7DCAD1B6F7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE200217-B899-4CA8-833A-7DCAD1B6F7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C461E5F-773A-4E69-B630-62CCB62BE328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C461E5F-773A-4E69-B630-62CCB62BE328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C461E5F-773A-4E69-B630-62CCB62BE328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C461E5F-773A-4E69-B630-62CCB62BE328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1873D8B0-C1B8-4CA5-8AF5-1B91C35F8E3E}
 	EndGlobalSection
 EndGlobal
